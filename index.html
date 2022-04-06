@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deudas EPM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="fondo">
+    <header>
+        <nav class="navbar navbar-light" style="background-color: #E7E4E3;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <div class="row"><a class="navbar-brand" href="#">
+                <img src="img/EpmLogo.png" alt="" width="70" height="30" class="d-inline-block align-text-top">
+                Deudas Web
+              </a>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-6">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Documento</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Valor total de la factura</label>
+                          <input type="number" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="disabledSelect" class="form-label">Estrato</label>
+                            <select id="disabledSelect" class="form-select">
+                            <option>Estrato 1 Descuento: 40%</option>}
+                            <option>Estrato 2 Descuento: 30%</option>
+                            <option>Estrato 3 Descuento: 20%</option>
+                            <option>Estrato 4 Descuento: N/A</option>
+                            <option>Estrato 5 Descuento: N/A</option>
+                            <option>Estrato 6 Descuento: N/A</option>
+                            </select>
+                        </div>
+                        <div class="d-grid gap-2 mt-5">
+                            <button type="submit" class="btn btn-primary">Pagar</button>
+                        </div>
+                      </form>
+                </div>
+                <div class="col-6">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/Factura-1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/Somos.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/Colores.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
